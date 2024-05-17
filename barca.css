@@ -1,0 +1,269 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    background-color: #f2f2f2;
+    color: #333;
+}
+:root{
+    --primary-color:#00605e;
+    --secondary-color:#089299;
+
+
+.title
+{
+
+
+
+    letter-spacing: 5px;
+    word-spacing: 0px;
+    /* font-family:sans-serif; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 3px;
+    color: var(--primary-color);
+
+
+}
+
+header {
+    width: 80%;
+    height: auto;
+    
+    margin: auto;
+}
+.h-nav {
+    width: 95%;
+    height: 7%;
+    
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu_bx{
+    list-style: none;
+    display: flex;
+   
+
+ 
+}
+.menu_bx li{
+ border: 0.1px  #00605f ;
+    border-radius: 14px;
+    transition: 0.2s;
+    justify-content: space-between;
+    margin: 6px;
+    
+}
+
+header nav ul li{ 
+    padding: 5px 16px;
+    
+  
+}
+
+header nav ul li:nth-last-child(1){
+    background: var(--primary-color);
+    border-radius: 20px;
+    padding: 5px 20px;
+
+}
+header nav ul li:nth-last-child(1) a{
+    color: #fff;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 13px;
+    font-weight: 500;
+    transition: .3s linear;
+    text-decoration:none ;
+}
+header nav ul li a:hover{
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////*/
+
+h1 {
+    color:var(--primary-color);
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.about_section{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.section {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--secondary-color);
+}
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 1rem;
+}
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+   
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.image-group {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.image-group img {
+    width: calc(33.33% - 10px);
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    height: auto;
+    background: var(--primary-color);
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    /* border-radius: 170px 0px 0px 170px; */
+
+
+}
+
+footer h2 {
+    text-align: center;
+    
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 70px;
+    /* line-height: 30px; */
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+
+    
+
+}
+footer h2 span{
+    text-decoration: line-through;
+}
+
+
+/* footer .input {
+    border-radius: 20px;
+} */
+
+footer .input input {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    border-radius: 20px 0px 0px 20px;
+}
+footer .input button {
+    padding: 12px 15px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    background-color: var(--secondary-color);
+    border-radius: 0px 20px 20px 0px;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+footer .input button:hover {
+    background: var(--primary-color);
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    /* align-items: center; */
+    margin-top: 30px;
+}
+
+footer ul li {
+    text-align: center;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+footer ul li h6 {
+    font-size: 11px;
+    font-weight: 600;
+    max-width: 120px;
+    margin: 0;
+    line-height: 18px;
+    border-top: 1px solid #000;
+    padding-top: 3px;
+}
